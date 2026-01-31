@@ -1,30 +1,29 @@
-# DataScience_Project
-# 📊 Data Science Project: Classification
-Repository ini berisi project Data Science yang berfokus pada klasifikasi data menggunakan berbagai teknik machine learning. Tujuan utama dari project ini adalah membangun, mengevaluasi, dan membandingkan performa beberapa model klasifikasi untuk memprediksi kelas/label berdasarkan fitur yang tersedia dalam dataset.
+# First DataScience_Project
+# 📊 Data Science Project: Classify the Student's Academic Performance Change
+This repository contains the dataset of changes in student academic performance influenced by several mental health factors and student habits. It also contains the python notebook code for data modelling (classify the academic performance changes of the new data).
+#Notes:This is my first DataScience project, and I'm looking forward to continue making projects like this later. This repository also help me understand more about github.
 
-# 🔍 Ruang Lingkup Project
+
+# 🔍 Project Scope
+* Import and read data from GDrive, using pandas
 * Data preprocessing (handling missing values, encoding, scaling)
 * Exploratory Data Analysis (EDA)
-* Feature selection & feature engineering
-* Pembangunan model klasifikasi
-* Evaluasi performa model
+* Feature selection 
+* Data modelling (classifier)
+* Model performance evaluation (confusion matrix, accuracy, etc.)
 * Hyperparameter tuning
 
-# 🤖 Algoritma yang Digunakan
-* Logistic Regression
-* K-Nearest Neighbors (KNN)
+# 🤖 Algorithm
 * Decision Tree
 * Random Forest
-* Support Vector Machine (SVM)
   
-# 📈 Metode Evaluasi
-* Accuracy
-* Precision, Recall, F1-Score
+# 📈 Evaluation Method
+* Accuracy (Report)
 * Confusion Matrix
-* Cross-validation
+* KFold-validation
   
 # 🛠️ Tools & Library
 * Python
-* Pandas, NumPy
-* Matplotlib, Seaborn
+* Pandas
+* Plotly express
 * Scikit-learn
